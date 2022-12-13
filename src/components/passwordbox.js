@@ -17,15 +17,15 @@ function Passwordbox() {
 
       if((passwordOnelen===0) && (passwordtwolen===0))
       {
-        alert('badwe password de');
+        alert('please enter a password');
       }
       else if(password1.current.value === password2.current.value)
       {
-        alert('beta password bilkul sahi hai');
+        alert('Passwords match!');
       }
       else
       {
-        alert('badwe (-_-) ')
+        alert('Sorry, the passwords do not match')
       }
          
      }
